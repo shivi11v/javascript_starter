@@ -41,7 +41,7 @@
     "lint:watch":"npm run lint -- --watch",
     "test": "mocha --reporter progress ./buildScripts/testSetup.js \"./src/**/*.test.js\"",
     "lint": "esw webpack.config.* src buildScripts --color",
-    "start": "npm-run-all --parallel open:src lint:watch test:watch",
+    "start": "npm-run-all --parallel security-check open:src lint:watch test:watch",
     "open:src":"babel-node buildScripts/srcServer.js",
     "test:watch":"npm run test -- --watch",    
     "prestart":"babel-node buildScripts/startMessage.js",
