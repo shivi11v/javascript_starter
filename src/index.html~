@@ -6,7 +6,8 @@
     <meta charset="utf-8">
     <meta name="keywords" content="javascript, good practices, starter kit, from testing to deployment">
 </head>
-<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+<script src="https://cdn.polyfill.io/v2/polyfill.js?features=fetch">
+</script>
 <body>
     <h1>Starter Kit</h1>
     <table>
